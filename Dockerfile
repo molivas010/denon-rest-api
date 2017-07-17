@@ -1,5 +1,6 @@
 FROM ubuntu
 
+ENV ADDRESS 192.168.1.25
 # make sure apt is up to date
 RUN apt-get update
 
