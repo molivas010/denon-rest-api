@@ -12,13 +12,15 @@ is exposed by default.
 
 In order to build the docker image use something similar to the following
 
-docker build -t <name_of_tag> .
-docker build -t my_denon_app .
+`docker build -t <name_of_tag> .`
+
+`docker build -t my_denon_app .`
 
 Once the image is built you can run it with a command similar to the following
 
-docker run -env ADDRESS=<YOUR_DENON_IP> -d -p 8000:8000  -t my_denon_app
-docker run -env ADDRESS=192.168.0.25 -d -p 8000:8000 -t my_denon_app
+`docker run -env ADDRESS=<YOUR_DENON_IP> -d -p 8000:8000  -t my_denon_app`
+
+`docker run -env ADDRESS=192.168.0.25 -d -p 8000:8000 -t my_denon_app`
 
 ## Running from comamnd line
 1) Navigate to the root of this project in the command line.
